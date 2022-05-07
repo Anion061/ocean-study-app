@@ -1,45 +1,326 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Study website</title>
 
-    <meta name="viewport" content="with=device-width, initial-scale=1.0">
-    <title>Ocean study  design</title>
-    <link rel="stylesheet" href="Style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+
+
+<header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><i class="fas fa-user-graduate"></i>Ocean Study</a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#course">course</a></li>
+            <li><a href="#teacher">teacher</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="login" class="fas fa-user-circle"></div>
+
+</header>
+
+
+
+<div class="login-form">
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" placeholder="username" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">register now</a></p>
+        <input type="submit" class="btn" value="login">
+        <i class="fas fa-times"></i>
+    </form>
+
+</div>
+
+
+
+<section class="home" id="home">
+    <video src="images/student.mp4" muted loop autoplay></video>
     
-    </head>
-    <body>
-        <section class="header">
-            <nav>
-            <a href="index.html"><img src="images/logo.png"></a>
-            <div class="nav-links">
-                <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">COURSE</a></li>
-                <li><a href="">BLOG</a></li>
-                <li><a href="">CONTACT</a></li>   
-                    
-                </ul>
-                
-                </div>
-            </nav>
-            
-    <div class="text-box">
-            <h1>Study With Us</h1>
-            <p>Welcom to Ocean Study here we are trying to solve<br>all your study related problems.</p>
-        
-            <a href="hero-btn">Visit Us To Know More</a>
-            
+    <div class="overlay"></div>
+    <div class="text">
+    <a href="#"><button class="btn">get started</button></a>
+
+    <div class="shape"></div>
+</div>
+</section>
+
+
+
+<section class="about" id="about">
+
+    <div class="video">
+    <video src="images/animate.mp4" muted loop autoplay></video>
+
+    <div class="content">
+        <h3>why choose us?</h3>
+        <p>Subject experts in Core subjects and Life Skills Subjects <br> - English, Math, Coding, Chess, Arts, Yoga, Music, Languages. <br> Awarded with the Most Innovative Curriculum,<br> Einsteins Square has teachers who are professionally trained,<br> experts in their respective subjects and have worked with <br> reputed schools for years. With their rigorous process on on-boarding teachers,<br> only best of the best become part of the organisation.<br> With advanced rating system only teachers who consistently provide value <br> to students, continue with the platform.</p>
+        <a href="#"><button class="btn">learn more</button></a>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="course" id="course">
+
+<h1 class="heading">our popular courses</h1>    
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="images/chess.png" alt="">
+        <h3 class="price">$10</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
             </div>
-            
-        
-        </section>
-    
-    
-    
-    </body>
+            <a href="#" class="title">chess for beginners</a>
+            <p>We are delighted to welcome you to Online Chess Classes, where you will find both individual and group online chess coaching classes.</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 1 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 12 weeks </h3>
+                <h3> <i class="fas fa-book"></i> 12 modules </h3>
+            </div>
+        </div>
+    </div>
 
+    <div class="box">
+        <img src="images/che" alt="">
+        <h3 class="price">Free..</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="#" class="title">Learn Chemistry with Experiments.</a>
+            <p>Expertly communicate the excitement of chemistry with these time-tested classroom practicals.</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 1 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 10 weekss </h3>
+                <h3> <i class="fas fa-book"></i> 10 modules </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/phy.png" alt="">
+        <h3 class="price">free..</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="#" class="title">Break the rules of physics with us.</a>
+            <p>Here we teach you about the laws of physics using examples from daily life.</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 1 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 6 Weeks </h3>
+                <h3> <i class="fas fa-book"></i> 6 modules </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/math.png" alt="">
+        <h3 class="price">Free..</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="#" class="title">Multiplication Made Easy -Times Tables From 0 to 10 With Fun Games </a>
+            <p>This one magic folder has a revision method for all tables starting from 1 TO 10.
+
+A child loves to quickly learn tables with these magic tricks. Also, we provide a reusable practice board to write and practice. Multiplication easy trick chart also included.
+
+Thoughtfully designed and to the point!</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 1 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 12 Weeks </h3>
+                <h3> <i class="fas fa-book"></i> 12 modules </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/art.jpg" alt="">
+        <h3 class="price">Free..</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="#" class="title">Learn Art and Craft with us.</a>
+            <p>We are now offering Online Private and Group Arts and Music Classes!</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 1 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 12 Weeks </h3>
+                <h3> <i class="fas fa-book"></i> 12 modules </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/java.jpg" alt="">
+        <h3 class="price">**</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="#" class="title">learn programming in java</a>
+            <p>Coming soon....</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i>class duration </h3>
+                <h3> <i class="far fa-calendar-alt"></i> Total weeks </h3>
+                <h3> <i class="fas fa-book"></i> Total  modules </h3>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+
+
+<section class="teacher" id="teacher">
+
+<h1 class="heading">our expert teachers</h1>
+
+<p></p>
+
+<a href="#"><button class="btn">learn more</button></a>
+    
+
+
+</section>
+
+
+
+<section class="contact" id="contact">
+
+<h1 class="heading">contact us</h1>
+
+<div class="row">
+
+    <form action="">
+        <input type="text" placeholder="full name" class="box">
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <input type="number" placeholder="your number" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="your address"></textarea>
+        <input type="submit" class="btn" value="send now">
+    </form>
+
+    <div class="image">
+        <img src="images/Contact.png" alt="">
+    </div>
+
+</div>
+
+</section>
+
+
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">India</a>
+            <a href="#">USA</a>
+            <a href="#">france</a>
+            <a href="#">russia</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">course</a>
+            <a href="#">teachers</a>
+            <a href="#">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-map-marker-alt"></i>India . </p>
+            <p> <i class="fas fa-envelope"></i> oceanstudy@gmail.com </p>
+            <p> <i class="fas fa-phone"></i> 0222-4321 </p>
+        </div>
+
+    </div>
+
+    <h1 class="credit">created by <a href="#">Ocean Team</a></h1>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    
+<script src="js/script.js"></script>
+
+</body>
 </html>
